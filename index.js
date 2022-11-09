@@ -3,8 +3,8 @@ import ReactDOM from "react-dom"
 
 const page = (
     <div>
-        <img src="./react-logo.png" />
-        <div>Fun facts about React</div>
+        <img src="./react-logo.png" width="40px" />
+        <h1>Fun facts about React</h1>
         <ul>
             <li>Was first released in 2013</li>
             <li>Was originally created by Jordan Walk</li>
