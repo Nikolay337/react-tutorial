@@ -5,17 +5,16 @@ function Body() {
     <div className="Body">
       <ul>
         <li>
-          <h1 className="About">About</h1>
+          <h2 className="About">About</h2>
             <small>
               Indulgence announcing uncommonly met she continuing two unpleasing terminated. 
               Now busy say down the shed eyes roof paid her. 
               Of shameless collected suspicion existence in. 
               Share walls stuff think but the arise guest. 
-              Course suffer to do he sussex it window advice.
             </small>
         </li>
       	<li>
-        	<h1 className="Interests">Interests</h1>
+        	<h2 className="Interests">Interests</h2>
             <small>
               Written enquire painful ye to offices forming it. 
               Then so does over sent dull on. 

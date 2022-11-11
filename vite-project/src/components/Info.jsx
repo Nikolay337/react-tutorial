@@ -4,8 +4,8 @@ function Info() {
     return(
         <div>
             <img src="./images/image.png" />
-            <h1>Laura Smith</h1>
-            <h2>Frontend Developer</h2>
+            <h2>Laura Smith</h2>
+            <h3>Frontend Developer</h3>
         </div>
     )
 }
