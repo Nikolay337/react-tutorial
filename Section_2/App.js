@@ -1,21 +1,14 @@
-import Navbar from "./components/Navbar"
-import Card from "./components/Card"
-import Hero from "./components/Hero"
-import Katie from "../src/images/katie-zaferes.png"
+import Joke from "./components/Joke"
+import jokesData from "./components/jokesData"
 
 export default function App() {
-  //<Hero />
+  const jokeElement = jokesData.map(joke => {
+    return <Joke setup={joke.setup} punchline={joke.punchline} />
+  })
+
   return (
     <div>
-      <Navbar />
-      <Card
-        img={Katie}
-        rating="5.0"
-        reviewCount={6}
-        country="USE"
-        title="Life Lessons with Katie Zaferes"
-        price={136}
-      />
+      {jokeElement}
     </div>
   )
 }
